@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navegación de Imágenes</title>
+<style>
+    #image-title {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  #image-container {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 60%;
+    height: auto;
+  }
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+ 
+</style>
+</head>
+<body>
+
+<div id="image-container">
+    <div id="image-title">Título imagen 1</div>
+  <img id="main-image" src="imagen1.jpg" alt="Imagen 1">
+  
+</div>
+
+<div class="button-container">
+  <button onclick="imagenAnterior()">Anterior</button>
+  <button onclick="imagenSiguiente()">Siguiente</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
